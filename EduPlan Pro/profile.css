@@ -1,0 +1,85 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the profile page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-header h2 {
+    font-size: 16px;
+    color: #888;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.detail {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.detail h3 {
+    font-size: 16px;
+}
+
+.detail p {
+    font-size: 14px;
+    color: #888;
+}
+
+.profile-bio {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.profile-bio h3 {
+    font-size: 18px;
+}
+
+.profile-bio p {
+    font-size: 14px;
+    color: #888;
+}
+
+.profile-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-button button:hover {
+    background-color: #0056b3;
+}
+
+/* Add more styles and creative design elements as needed */

@@ -1,0 +1,52 @@
+/* Reset some default styles for simplicity */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for team section */
+#team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.person {
+    text-align: center;
+    margin: 10px;
+}
+
+.person img {
+    max-width: 100%;
+    border: 3px solid #333;
+    border-radius: 50%;
+}
+
+/* Styling for contact section */
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 24px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+#card{
+    cursor: pointer;
+}

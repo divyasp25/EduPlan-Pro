@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Study Schedule Generator</title>
+</head>
+<body style="background-color:azure">
+    <header>
+        <h3 style="color: burlywood; font-family:cursive;">EduPlan Pro</h3>
+        <h1 style="font-family: cursive">Study Schedule Generator</h1>
+    </header>
+    <div class="container">
+        <form id="schedule-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="hours">Hours Available per Day:</label>
+                <input type="number" id="hours" name="hours" required>
+            </div>
+            <div class="form-group">
+                <label for="subjects">Subjects to Study (Comma Separated):</label>
+                <input type="text" id="subjects" name="subjects" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Study Time:</label>
+                <select id="time" name="time">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                <a href="gensch.html" style="color: white; text-decoration: none" >Generate Schedule</a></button>
+        </form>
+        <div id="schedule-output"></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAEtq6u-hjhcx734JC46e5xDL-QT-0pGf0",
+      authDomain: "eduplan-pro.firebaseapp.com",
+      projectId: "eduplan-pro",
+      storageBucket: "eduplan-pro.appspot.com",
+      messagingSenderId: "464989944766",
+      appId: "1:464989944766:web:47efaf522e70f3b74657ef",
+      measurementId: "G-EPE5BGX609"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+    
+</html>

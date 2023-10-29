@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: arial;
+    background: #000;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+
+
+#lead-banner img{
+    width: 100%;
+}
+
+#shop{
+    margin: 30px 0;
+    text-align: center;
+    
+}
+
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop span.price{
+    font-size: 16px;
+    display: block;
+    font-style:initial;
+}
+
+#shop a.add-to-bag{
+    display: block;
+    border:solid #aa8b77;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 2px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+    background: #ddb8aa;
+    background: linear-gradient( #ddb7aaf4 0%, #aa8777 100%);
+    box-shadow: 2px 2px 4px rgba(40,40,40,0.6)
+}
+
+#shop a.add-to-bag:hover{
+    background: linear-gradient(to top, #ddbaaa 0%, #aa9377 100%);
+}
+
+#footer-banner img{
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
